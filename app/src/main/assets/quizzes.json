@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Kerala Quiz",
+    "timer_duration": 30,
+    "questions": [
+      {
+        "text": "What is the capital of Kerala?",
+        "type": "single",
+        "options": ["Thiruvananthapuram", "Kochi", "Kozhikode", "Kannur"],
+        "answers": [0]
+      },
+      {
+        "text": "Which is the official language of Kerala?",
+        "type": "single",
+        "options": ["Hindi", "Malayalam", "Tamil", "Kannada"],
+        "answers": [1]
+      },
+      {
+        "text": "Which is the longest river in Kerala?",
+        "type": "single",
+        "options": ["Periyar", "Bharathapuzha", "Pamba", "Chaliyar"],
+        "answers": [0]
+      },
+      {
+        "text": "What is Kerala famously known as?",
+        "type": "single",
+        "options": ["God's Own Country", "Land of Festivals", "Land of Spices", "Backwater Paradise"],
+        "answers": [0]
+      },
+      {
+        "text": "Which is the classical dance form of Kerala?",
+        "type": "single",
+        "options": ["Bharatanatyam", "Kathak", "Kathakali", "Odissi"],
+        "answers": [2]
+      }
+    ]
+  },
+  {
+    "name": "Aswin's Quiz",
+    "timer_duration": 20,
+    "questions": [
+      {
+        "text": "What is Aswin's favorite programming language?",
+        "type": "single",
+        "options": ["Python", "Java", "C++", "Kotlin"],
+        "answers": [1]
+      },
+      {
+        "text": "Which sport does Aswin enjoy the most?",
+        "type": "single",
+        "options": ["Football", "Cricket", "Basketball", "Tennis"],
+        "answers": [0]
+      },
+      {
+        "text": "What is Aswin's favorite cuisine?",
+        "type": "single",
+        "options": ["Italian", "Kerala", "Chinese", "Arabic"],
+        "answers": [3]
+      },
+      {
+        "text": "What is Aswin's preferred development platform?",
+        "type": "single",
+        "options": ["Android Studio", "VS Code", "PyCharm", "Eclipse"],
+        "answers": [0]
+      },
+      {
+        "text": "What is Aswin's preferred mode of relaxation?",
+        "type": "single",
+        "options": ["Listening to Music", "Reading", "Gaming", "Yoga"],
+        "answers": [2]
+      }
+    ]
+  }
+]

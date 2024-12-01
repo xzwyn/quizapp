@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_question_input.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/question_input_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="16dp">
+
+    <!-- Question Text Input -->
+    <EditText
+        android:id="@+id/edit_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter question text"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Question Type Selector -->
+    <TextView
+        android:id="@+id/label_question_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question Type:"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_question_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_single_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Choice"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_multiple_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiple Choice"
+            android:layout_marginStart="16dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/label_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options:"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <LinearLayout
+        android:id="@+id/options_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/button_add_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Option"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
