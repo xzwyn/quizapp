@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/quiz_list_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="My Quizzes"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/quizzes_recycler_view"
+        android:layout_width="377dp"
+        android:layout_height="123dp"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/create_quiz_btn"
+        android:layout_width="381dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/green"
+        app:srcCompat="@drawable/add_icon" />
+</LinearLayout>
